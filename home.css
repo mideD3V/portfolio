@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: linear-gradient(rgba(4, 0, 0, 0.75), rgb(1, 17, 26)), url(/portfolio/pics/web-developer.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover; */
+    background-color: rgb(2, 1, 17);
+    
+
+}
+
+header {
+    width: 100%;
+    background-color: rgba(4, 1, 14, 0.93);
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    /* background-color: rgb(134, 230, 230); */
+    text-align: left;
+    display: inline-block;
+    width: 15%;
+    margin-left: 100px;
+    
+}
+
+.mide {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.dev {
+    color: brown;
+    text-align: center;
+    
+}
+
+
+.nav-links {
+    width: 80%;
+    display: flex;
+    text-align: right;
+    padding-left: 100px;
+    margin-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    justify-items: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    text-align: right;
+
+}
+.reg li a{
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    
+}
+
+.reg .login{
+    border: 1px;
+    background-color: white;
+    color: rgba(17, 39, 98, 0.93);
+    padding: 10px 20px;
+    margin: 0;
+    
+} 
+
+.hire{
+    border: 1px;
+    background-color: rgb(35, 35, 127);
+    padding: 10px;
+}
+
+.signup{
+    border: 1px;
+    background-color: brown;
+    padding: 10px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+.textside{
+    flex: 50%;
+    /* background-color: darkgoldenrod;
+     */
+}
+.imageside{
+    flex: 50%;
+    /* background-color: lightpink; */
+
+}
+
+.hero-text{
+    width: 60%;
+    margin: 200px 0 10px 200px;
+    font-size: 80px;
+    font-weight: 900;
+    text-align:left;
+    color: rgb(255, 255, 255);
+    
+    /* box-shadow: 5px 5px 10px red; */
+
+
+}
+.subhero{
+    width: 70%;
+    margin: 0 100px 0 180px;
+    color: white;
+    /* background-color: rgb(35, 35, 127); */
+    padding: 20px;
+    font-size: 20px;
+    word-spacing: 2px;
+    border-spacing: 50px;
+}
+
+.mideDev{
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+
+    /* box-shadow: 5px 5px 10px; */
+}
+
+.button{
+    width: 20%;
+    padding: 10px;
+    margin: 0 200px;
+    color: rgb(5, 5, 44);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgba(12, 23, 55, 0.93);
+    padding: 15px 100px 15px 100px;
+    display: flex;
+    justify-content: space-around;
+    color: royalblue;
+    margin: 0;
+    text-decoration: none;
+}
